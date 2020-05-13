@@ -1,6 +1,11 @@
 import React from 'react';
+import CardForm from '../CardForm/CardForm';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+    <CardForm />
+    </>
+  );
 }
   
