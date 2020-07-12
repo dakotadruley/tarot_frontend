@@ -6,11 +6,21 @@ const Home = () => {
 
     return (
         <section className={styles.Home}>
-        <h1>Tarot</h1>
-        <nav>
-            <h3><Link to='/createCard'>Create A Card</Link></h3>
-        </nav>
-     
+
+            <h1>tarot</h1>
+
+            <nav>
+                <h3>About</h3>
+                <h3></h3>
+                <h3></h3>
+                <h3><Link to='/createCard'>Create A Card</Link></h3>
+            </nav>
+
+            <aside>
+                <h3>Welcome</h3>
+                <p>Hello this is a place for tarot card stuff...</p>
+            </aside>
+
         </section>
     
 )};
