@@ -15,7 +15,8 @@ section {
 nav {
     display: flex;
     justify-content: space-evenly;
-    
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
 }
 
 h3 {
@@ -26,6 +27,9 @@ p {
     font-family: 'Inconsolata', monospace;
 }
 
+aside {
+    margin: 2em;
+}
 .Home {
     
 }

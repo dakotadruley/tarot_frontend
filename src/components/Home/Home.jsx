@@ -11,8 +11,7 @@ const Home = () => {
 
             <nav>
                 <h3>About</h3>
-                <h3></h3>
-                <h3></h3>
+                <h3>Library</h3>
                 <h3><Link to='/createCard'>Create A Card</Link></h3>
             </nav>
 
