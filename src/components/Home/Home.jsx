@@ -5,10 +5,13 @@ import styles from './Home.css';
 const Home = () => {
 
     return (
-        <>
-        <h1 className={styles.Home}>Tarot</h1>
-        <Link to='/createCard'>Create A Card</Link>
-        </>
+        <section className={styles.Home}>
+        <h1>Tarot</h1>
+        <nav>
+            <h3><Link to='/createCard'>Create A Card</Link></h3>
+        </nav>
+     
+        </section>
     
 )};
 

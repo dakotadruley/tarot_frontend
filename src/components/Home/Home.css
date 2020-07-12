@@ -1,3 +1,18 @@
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
 .Home {
     font-family: Arial, Helvetica, sans-serif;
 }
